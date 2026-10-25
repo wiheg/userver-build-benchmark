@@ -1,0 +1,16 @@
+# Results and temporary traces
+results/*.bin
+results/*.log
+results/*.txt
+!results/baseline_raw.txt
+!results/hypothesis_raw.txt
+
+# Local tool cache
+bin/
+.cache/
+
+# IDE
+.idea/
+.vscode/
+cmake-build-*/
+build/
